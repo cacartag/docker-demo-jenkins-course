@@ -16,4 +16,5 @@ node {
        def app = docker.build("christophercartagena40/docker-nodejs-demo:${commit_id}", '.').push()
      }
    }
+
 }
